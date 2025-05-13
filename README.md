@@ -52,6 +52,8 @@ Go to Settings > Pages in your repository.
 
 Select the main branch and save changes.
 
+### Accessibility 
+
 Technologies Used
 
 HTML5 for structure
