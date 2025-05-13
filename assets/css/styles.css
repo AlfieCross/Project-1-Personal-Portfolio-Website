@@ -4,14 +4,15 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1C4067;
+    color: black;
 }
 
 /* Sidebar Navigation */
 .sidebar {
-    width: 150px;
-    background-color: #1C4067;
+    width: 125px;
+    /* background-color: #1C4067; */
+    background: transparent;
     color: white;
     position: fixed;
     height: 100vh;
@@ -75,11 +76,11 @@ body {
     position: fixed;
     top: 15px;
     left: 15px;
-    background-color: #3498db;
+    background-color: #1C4067;
     color: white;
     border: none;
     padding: 10px 15px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     border-radius: 5px;
     z-index: 1000;
@@ -113,7 +114,7 @@ h1, h2 {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #1C4067;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -144,13 +145,14 @@ h1, h2 {
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .projects-section .project a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: #3498db;
+    color: #1C4067;
     font-weight: bold;
 }
 
@@ -161,7 +163,7 @@ h1, h2 {
 /* Project Image Styling */
 .project img {
     width: 100%; /* Ensures the image fills the project container */
-    max-width: 400px; /* Prevents it from getting too large */
+    max-width: 250px; /* Prevents it from getting too large */
     height: auto; /* Maintains aspect ratio */
     display: block; /* Removes extra spacing */
     margin: 10px auto; /* Centers the image */
@@ -176,7 +178,7 @@ h1, h2 {
 
 /* Contact Section */
 .contact-section a {
-    color: #3498db;
+    color: #1C4067;
     text-decoration: none;
 }
 
