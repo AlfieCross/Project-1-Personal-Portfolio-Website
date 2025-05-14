@@ -13,18 +13,17 @@ body {
 
 /* Sidebar Navigation */
 .sidebar {
-  width: 125px;
-  background-color: #1c4067;
+  width: auto;
+  background-color: transparent;
   color: white;
   position: fixed;
   height: 100vh;
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .sidebar h2 {
@@ -70,7 +69,8 @@ body {
 }
 
 .sidebar nav ul li a:hover {
-  background-color: #34495e;
+  color: #2980b9;
+  transform: scale(1.05);
 }
 
 /* Sidebar Toggle Button */
@@ -110,6 +110,13 @@ section {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.about-section,
+.projects-section,
+.contact-section,
+footer {
+  margin-left: 150px; 
+}
+
 h1,
 h2 {
   color: #1c4067;
@@ -145,10 +152,6 @@ h2 {
 
 /* About Section */
 
-.about-section {
-  margin-left: 170px;
-}
-
 .about-section ul {
   list-style: none;
   padding: 0;
@@ -162,10 +165,6 @@ h2 {
 }
 
 /* Projects Section */
-
-.projects-section {
-  margin-left: 170px;
-}
 
 .projects-section .project {
   background: #ecf0f1;
@@ -207,7 +206,6 @@ h2 {
 /* Contact Section */
 
 .contact-section {
-  margin-left: 170px;
   transition: transform 0.3s ease-in-out;
   text-align: center;
   flex-direction: column;
@@ -230,28 +228,29 @@ h2 {
 }
 
 footer {
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 170px;
-    margin-top: auto;
-} 
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
   .sidebar {
-    width: 150px;
+    width: 100px;
     padding: 15px;
   }
-  .main-content {
-    margin-left: 170px;
+  .about-section,
+  .projects-section,
+  .contact-section {
+    margin-left: 100px;
   }
 }
 
@@ -259,15 +258,16 @@ footer {
   .sidebar {
     transform: translateX(-100%);
   }
-  .main-content {
-    margin-left: 0;
-    padding: 10px;
-  }
   .sidebar.active {
     transform: translateX(0);
   }
   .sidebar-toggle {
     display: block;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 10px;
   }
 }
 
