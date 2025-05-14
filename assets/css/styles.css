@@ -6,6 +6,8 @@ body {
     display: flex;
     background-color: #1C4067;
     color: black;
+    height: 100%;
+    flex-direction: column;
 }
 
 /* Sidebar Navigation */
@@ -88,9 +90,15 @@ body {
 
 /* Main Content */
 .main-content {
-    margin-left: 170px;
     padding: 20px;
     flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: 100vh;
 }
 
 section {
@@ -107,7 +115,16 @@ h1, h2 {
 
 /* Home Section */
 .home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-section:hover {
+    transform: scale(1.02);
 }
 
 .btn {
@@ -125,6 +142,11 @@ h1, h2 {
 }
 
 /* About Section */
+
+.about-section {
+    margin-left: 170px;
+}
+
 .about-section ul {
     list-style: none;
     padding: 0;
@@ -138,6 +160,11 @@ h1, h2 {
 }
 
 /* Projects Section */
+
+.projects-section {
+    margin-left: 170px;
+}
+
 .projects-section .project {
     background: #ecf0f1;
     padding: 15px;
@@ -176,6 +203,11 @@ h1, h2 {
 }
 
 /* Contact Section */
+
+.contact-section {
+    margin-left: 170px;
+}
+
 .contact-section a {
     color: #1C4067;
     text-decoration: none;
