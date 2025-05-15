@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,6 +32,7 @@ body {
   left: 0;
   background-color: #1c4067;
   overflow-x: hidden;
+    transition: 0.5s ease-in-out
 }
 
 .sidebar a {
@@ -49,16 +54,16 @@ body {
 
 /* Sidebar Toggle Button */
 .sidebar-toggle {
-  display: none;
-  position: absolute;
-  top: 20px;
-  left: 210px;
-  background-color: #1c4067;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  font-size: 1.2rem;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    background-color: #1c4067;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
 }
 
 /* Main Content */
@@ -69,11 +74,17 @@ body {
 }
 
 section {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -174,16 +185,11 @@ h2 {
 /* Contact Section */
 
 .contact-section {
-  transition: transform 0.3s ease-in-out;
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: auto;
-}
-
-.contact-section:hover {
-  transform: scale(1.02);
 }
 
 .contact-section a {
@@ -228,7 +234,6 @@ footer {
   background-color: #1c4067;
   color: white;
   border: none;
-  padding: 10px 15px;
   cursor: pointer;
   font-size: 1.2rem;
   z-index: 1000; /* Ensure it's on top of other elements */
@@ -238,22 +243,14 @@ footer {
    TABLET - 1024px and below
 ---------------------------- */
 @media screen and (max-width: 1024px) {
+
     .sidebar {
-        width: 150px;
-    }
-    
-    .sidebar a {
-        font-size: 1rem;
-    }
-    
-    .main {
-        margin-left: 150px;
+        width: 100px;
         padding: 15px;
     }
-    
-    .sidebar-toggle {
-        left: 160px;
-        font-size: 1rem;
+
+    .main {
+        margin-left: 100px;
     }
 }
 
@@ -262,26 +259,24 @@ footer {
 ---------------------------- */
 @media screen and (max-width: 768px) {
     .sidebar {
-        width: 100px;
+        transform: translateX(-100%);
     }
-    
-    .sidebar a {
-        font-size: 0.9rem;
+
+    .sidebar.active {
+        transform: translateX(0);
     }
-    
+
+    .sidebar-toggle {
+        display: block;
+    }
+
     .main {
-        margin-left: 100px;
+        margin-left: 0;
         padding: 10px;
     }
-    
-    .sidebar-toggle {
-        left: 110px;
-        font-size: 0.9rem;
-    }
-    
-    .btn {
-        padding: 8px 15px;
-        font-size: 14px;
+
+    footer {
+        margin-left: 0;
     }
 }
 
@@ -289,26 +284,8 @@ footer {
    SMALL MOBILE - 480px and below
 ---------------------------- */
 @media screen and (max-width: 480px) {
-    .sidebar {
-        width: 80px;
-    }
-    
-    .sidebar a {
-        font-size: 0.8rem;
-    }
-    
-    .main {
-        margin-left: 80px;
-        padding: 5px;
-    }
-    
-    .sidebar-toggle {
-        left: 90px;
-        font-size: 0.8rem;
-    }
-    
     .btn {
-        padding: 5px 10px;
-        font-size: 12px;
+        font-size: 14px;
+        padding: 8px 16px;
     }
 }
