@@ -55,15 +55,17 @@ body {
 /* Sidebar Toggle Button */
 .sidebar-toggle {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 20px;
-    left: 220px;
+    left: 20px;
     background-color: #1c4067;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 1.2rem;
+    z-index: 1001; /* Ensure it's on top of the sidebar */
+    border-radius: 5px;
 }
 
 /* Main Content */
@@ -251,6 +253,10 @@ footer {
 
     .main {
         margin-left: 100px;
+    }
+
+    .sidebar-toggle {
+        display: none;
     }
 }
 
