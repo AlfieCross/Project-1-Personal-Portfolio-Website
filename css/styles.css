@@ -1,61 +1,62 @@
 /* General Styles */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #1c4067;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1c4067;
 }
 
 /* Sidebar Navigation */
 
 .sidebar {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #1c4067;
-    overflow-x: hidden;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1c4067;
+  overflow-x: hidden;
 }
 
 .sidebar a {
-    color: white;
-    padding: 15px 20px;
-    text-decoration: none;
-    display: block;
-    font-size: 18px;
-    transition: 0.3s;
-    border-radius: 5px;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
 }
 
 .sidebar a:hover {
-    color: #2980b9;
-
+  color: #2980b9;
 }
 
 /* Sidebar Toggle Button */
 .sidebar-toggle {
-    display: none;
-    position: absolute;
-    top: 20px;
-    left: 210px;
-    background-color: #1c4067;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 1.2rem;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 210px;
+  background-color: #1c4067;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
 
 /* Main Content */
+
 .main {
-    margin-left: 200px;
-    padding: 20px;
-    transition: margin-left 0.3s ease-in-out;
+  margin-left: 200px;
+  padding: 20px;
 }
 
 section {
@@ -72,6 +73,7 @@ h2 {
 }
 
 /* Home Section */
+
 .home-section {
   display: flex;
   flex-direction: column;
@@ -79,10 +81,6 @@ h2 {
   justify-content: center;
   text-align: center;
   transition: transform 0.3s ease-in-out;
-}
-
-.home-section:hover {
-  transform: scale(1.02);
 }
 
 .btn {
@@ -102,7 +100,12 @@ h2 {
 /* About Section */
 
 .about-section {
-  margin-left: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .about-section ul {
@@ -118,10 +121,6 @@ h2 {
 }
 
 /* Projects Section */
-
-.projects-section {
-  margin-left: 170px;
-}
 
 .projects-section .project {
   background: #ecf0f1;
@@ -163,7 +162,6 @@ h2 {
 /* Contact Section */
 
 .contact-section {
-  margin-left: 170px;
   transition: transform 0.3s ease-in-out;
   text-align: center;
   flex-direction: column;
@@ -179,7 +177,7 @@ h2 {
 .contact-section a {
   color: #1c4067;
   text-decoration: none;
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -191,18 +189,12 @@ h2 {
 }
 
 footer {
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 170px;
-} 
+  background: #1c4067;
+  color: white;
+  text-align: center;
+  padding: 10px, 0;
+  margin-top: auto;
+}
 
 /* -------------------------
    TABLET - 1024px and below
