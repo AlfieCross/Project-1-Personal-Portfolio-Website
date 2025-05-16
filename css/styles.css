@@ -32,7 +32,7 @@ body {
   left: 0;
   background-color: #1c4067;
   overflow-x: hidden;
-    transition: 0.5s ease-in-out
+  transition: 0.5s ease-in-out;
 }
 
 .sidebar a {
@@ -54,20 +54,20 @@ body {
 
 /* Sidebar Toggle Button */
 .sidebar-toggle {
-    display: none;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-    top: 0px;
-    float: left;
-    background-color: #1c4067;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    z-index: 1001; /* Ensure it's on top of the sidebar */
-    border-radius: 5px;
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  float: left;
+  background-color: #1c4067;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  z-index: 1001; /* Ensure it's on top of the sidebar */
+  border-radius: 5px;
 }
 
 /* Main Content */
@@ -78,16 +78,16 @@ body {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    margin: 20px 0;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -98,25 +98,25 @@ h2 {
 /* Home Section */
 
 .home-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-    color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  color: black;
 }
 
 .btn {
-    background-color: #1c4067;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
+  background-color: #1c4067;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -233,53 +233,52 @@ footer {
    TABLET - 1024px and below
 ---------------------------- */
 @media screen and (max-width: 1024px) {
+  .sidebar {
+    width: 100px;
+    padding: 15px;
+  }
 
-    .sidebar {
-        width: 100px;
-        padding: 15px;
-    }
+  .main {
+    margin-left: 100px;
+  }
 
-    .main {
-        margin-left: 100px;
-    }
-
-    .sidebar-toggle {
-        display: none;
-    }
+  .sidebar-toggle {
+    display: none;
+  }
 }
 
 /* -------------------------
    MOBILE - 768px and below
 ---------------------------- */
 @media screen and (max-width: 768px) {
-    .sidebar {
-        transform: translateX(-100%);
-    }
+  .sidebar {
+    transform: translateX(-100%);
+  }
 
-    .sidebar.active {
-        transform: translateX(0);
-    }
+  .sidebar.active {
+    transform: translateX(0);
+  }
 
-    .sidebar-toggle {
-        display: block;
-    }
+  .sidebar-toggle {
+    display: block;
+  }
 
-    .main {
-        margin-left: 0;
-        padding: 10px;
-    }
+  .main {
+    margin-left: 0;
+    padding: 10px;
+  }
 
-    footer {
-        margin-left: 0;
-    }
+  footer {
+    margin-left: 0;
+  }
 }
 
 /* -------------------------
    SMALL MOBILE - 480px and below
 ---------------------------- */
 @media screen and (max-width: 480px) {
-    .btn {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
+  .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
