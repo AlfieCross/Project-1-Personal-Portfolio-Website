@@ -1,11 +1,10 @@
-My Portfolio Website
+# My Portfolio Website
 
-Overview
+## About the Project
 
+### Overview
 This is a personal portfolio website designed to showcase my work, skills, and professional background. It includes sections for an introduction, projects, an about page, and contact information.
-
-Features
-
+### Features
 Responsive Design: Works on all devices with a clean and modern layout.
 
 Accessible Navigation: Sidebar menu with clear labels and icons.
@@ -16,8 +15,8 @@ Contact Information: Provides ways to connect via email, phone, and social media
 
 Optimized File Structure: Files are organized into structured directories.
 
-File Structure
-
+### File Structure
+```
 /my-portfolio
 │── /assets
 │   │── /css
@@ -29,8 +28,21 @@ File Structure
 │       ├── project1.png
 │── index.html
 │── README.md
+```
 
-Installation
+## Built With
+
+HTML5 for structure
+
+CSS3 for styling
+
+JavaScript for interactivity
+
+Font Awesome for icons
+
+## Getting Started
+
+### Installation
 
 Clone this repository:
 
@@ -42,7 +54,7 @@ cd my-portfolio
 
 Open index.html in your preferred browser.
 
-Deployment
+### Deployment
 
 This website can be deployed on GitHub Pages or any static hosting provider. To deploy on GitHub Pages:
 
@@ -52,22 +64,13 @@ Go to Settings > Pages in your repository.
 
 Select the main branch and save changes.
 
+## Contact
+
+## Acknowledgements
+* [Font Awesome](https://fontawesome.com/) icons.
+* [unDraw](https://undraw.co/) for project images.
+*
+*
+
 ### Accessibility 
-
-Technologies Used
-
-HTML5 for structure
-
-CSS3 for styling
-
-JavaScript for interactivity
-
-Font Awesome for icons
-
-Credits
-
-Font Awesome icons from fontawesome.com
-
-License
-
-This project is open-source and available under the MIT License.
+See below for the Lighthouse report:
