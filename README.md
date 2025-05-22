@@ -3,56 +3,63 @@
 ## About the Project
 
 ### Overview
-This is a personal portfolio website designed to showcase my work, skills, and professional background. It includes sections for an introduction, projects, an about page, and contact information.
+This is a responsive and accessible personal portfolio website created to showcase my front-end development skills, highlight my best projects, and provide a way for visitors or potential employers to contact me.
+
 ### Features
-Responsive Design: Works on all devices with a clean and modern layout.
-
-Accessible Navigation: Sidebar menu with clear labels and icons.
-
-Projects Section: Displays a list of projects with descriptions and links.
-
-Contact Information: Provides ways to connect via email, phone, and social media.
-
-Optimized File Structure: Files are organized into structured directories.
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices.
+- **Sidebar Navigation**: Easily accessible links to all major sections.
+- **Project Highlights**: Visual and descriptive presentation of selected works.
+- **Accessible Design**: Semantic HTML and high contrast colors used for usability.
+- **Smooth Interactions**: Includes subtle animations and hover effects for a polished user experience.
 
 ### File Structure
 ```
 /my-portfolio
-│── /assets
-│   │── /css
-│   │   ├── styles.css
-│   │── /js
-│   │   ├── app.js
-│   │── /images
-│       ├── profile.jpg
-│       ├── project1.png
-│── index.html
-│── README.md
+├── index.html
+├── README.md
+├── css/
+│   ├── styles.css
+├── js/
+│   ├── main.js
+├── assets/
+│   ├── images/
+│   │   ├── project1.svg
+│   │   ├── project2.svg
+│   │   ├── project3.svg
 ```
 
 ## Built With
-
-HTML5 for structure
-
-CSS3 for styling
-
-JavaScript for interactivity
-
-Font Awesome for icons
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Font Awesome
 
 ## Getting Started
 
 ### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/my-portfolio.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd my-portfolio
+   ```
+3. Open `index.html` in your browser or use a live server for best results.
 
-Clone this repository:
+## Usage
+- Navigate using the sidebar.
+- Explore projects and learn more about my background on the About page.
+- Use the Contact page to reach out with opportunities or questions.
 
-git clone https://github.com/yourusername/my-portfolio.git
+## Accessibility & UX Considerations
+- High contrast text and background combinations.
+- Fully navigable via keyboard.
+- Semantic elements for screen reader compatibility.
+- Responsive breakpoints for major device sizes.
 
-Navigate to the project directory:
-
-cd my-portfolio
-
-Open index.html in your preferred browser.
+### Lighthouse report:
 
 ### Deployment
 
@@ -65,12 +72,14 @@ Go to Settings > Pages in your repository.
 Select the main branch and save changes.
 
 ## Contact
+**Alfie Cross**  
+GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
+Email: your-email@example.com
 
 ## Acknowledgements
 * [Font Awesome](https://fontawesome.com/) icons.
 * [unDraw](https://undraw.co/) for project images.
-*
-*
+* [Google Fonts](https://fonts.google.com/) fonts.
 
 ### Accessibility 
 See below for the Lighthouse report:
