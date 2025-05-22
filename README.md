@@ -80,4 +80,8 @@ Email: your-email@example.com
 
 ### Accessibility 
 See below for the Lighthouse report:
-![LighthouseReport](/assets/images/lighthouse%20screenshot.png)
+#### Mobile
+![LighthouseReportMobile](/assets/images/lighthouse_mobile_sc.png)
+
+#### Desktop
+![LighthouseReportDesktop](/assets/images/lighthouse_desktop_sc.png)
