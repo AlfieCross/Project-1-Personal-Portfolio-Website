@@ -74,9 +74,9 @@ GitHub: [https://github.com/yourusername](https://github.com/yourusername)
 Email: your-email@example.com
 
 ## Acknowledgements
-* [Font Awesome](https://fontawesome.com/) icons.
-* [unDraw](https://undraw.co/) for project images.
-* [Google Fonts](https://fonts.google.com/) fonts.
+* [Font Awesome](https://fontawesome.com/) - icons.
+* [unDraw](https://undraw.co/) - project images.
+* [Google Fonts](https://fonts.google.com/) - fonts.
 
 ### Accessibility 
 See below for the Lighthouse report:
