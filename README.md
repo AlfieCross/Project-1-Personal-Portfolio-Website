@@ -23,6 +23,8 @@ This is a responsive and accessible personal portfolio website created to showca
 │   ├── main.js
 ├── assets/
 │   ├── images/
+│   │   ├── lighthouse_desktop_sc.png
+│   │   ├── lighthouse_mobile_sc.png
 │   │   ├── project1.svg
 │   │   ├── project2.svg
 │   │   ├── project3.svg
