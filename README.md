@@ -59,10 +59,7 @@ This is a responsive and accessible personal portfolio website created to showca
 - Semantic elements for screen reader compatibility.
 - Responsive breakpoints for major device sizes.
 
-### Lighthouse report:
-
 ### Deployment
-
 This website can be deployed on GitHub Pages or any static hosting provider. To deploy on GitHub Pages:
 
 Push your code to GitHub.
@@ -83,3 +80,4 @@ Email: your-email@example.com
 
 ### Accessibility 
 See below for the Lighthouse report:
+![LighthouseReport](/assets/images/lighthouse%20screenshot.png)
