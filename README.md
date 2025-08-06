@@ -42,7 +42,7 @@ This is a responsive and accessible personal portfolio website created to showca
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/my-portfolio.git
+   git clone https://github.com/AlfieCross/Project-1-Personal-Pprtfolio-Website.git
    ```
 2. Navigate into the project directory:
    ```bash
