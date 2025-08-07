@@ -1,89 +1,153 @@
-# My Portfolio Website
+# 💼 Alfie Cross | Portfolio Website
 
-## About the Project
+Welcome to my **personal portfolio website**, built to showcase my front-end development skills, feature my latest projects, and offer ways for visitors or potential employers to connect with me.
 
-### Overview
-This is a responsive and accessible personal portfolio website created to showcase my front-end development skills, highlight my best projects, and provide a way for visitors or potential employers to contact me.
+---
 
-### Features
-- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices.
-- **Sidebar Navigation**: Easily accessible links to all major sections.
-- **Project Highlights**: Visual and descriptive presentation of selected works.
-- **Accessible Design**: Semantic HTML and high contrast colors used for usability.
-- **Smooth Interactions**: Includes subtle animations and hover effects for a polished user experience.
+## 🌐 Live Demo
 
-### File Structure
+🔗 [View the Website](https://alfiecross.github.io/my-portfolio/)  
+_This site is hosted on GitHub Pages_
+
+---
+
+## 🚀 Overview
+
+This is a fully responsive, accessible, and modern front-end portfolio website that includes:
+- **Sidebar navigation** for smooth transitions
+- **Interactive content** using JavaScript
+- **Project showcases** with images and tech stacks
+- Clean, semantic HTML and organized CSS structure
+- Basic accessibility and UX best practices
+
+---
+
+## 🛠️ Built With
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Google Fonts  
+- Font Awesome  
+- Git & GitHub
+
+---
+
+## 📁 File Structure
+
 ```
 /my-portfolio
 ├── index.html
 ├── README.md
 ├── css/
-│   ├── styles.css
+│   └── styles.css
 ├── js/
-│   ├── main.js
+│   └── main.js
 ├── assets/
-│   ├── images/
-│   │   ├── lighthouse_desktop_sc.png
-│   │   ├── lighthouse_mobile_sc.png
-│   │   ├── project1.svg
-│   │   ├── project2.svg
-│   │   ├── project3.svg
+│   └── images/
+│       ├── project1.svg
+│       ├── project2.svg
+│       ├── project3.svg
+│       ├── lighthouse_desktop_sc.png
+│       └── lighthouse_mobile_sc.png
 ```
 
-## Built With
-- HTML5
-- CSS3
-- JavaScript
-- Google Fonts
-- Font Awesome
+---
 
-## Getting Started
+## 📸 Featured Projects
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/AlfieCross/Project-1-Personal-Pprtfolio-Website.git
-   ```
-2. Navigate into the project directory:
-   ```bash
-   cd my-portfolio
-   ```
-3. Open `index.html` in your browser or use a live server for best results.
+### 1. Personal Portfolio  
+A clean and modern website to present my skills and past work, with responsive design and smooth navigation.  
+**Tech:** HTML, CSS, JavaScript  
+🔗 _This site!_
 
-## Usage
-- Navigate using the sidebar.
-- Explore projects and learn more about my background on the About page.
-- Use the Contact page to reach out with opportunities or questions.
+### 2. Local Business Café Website  
+A fictional café website built to highlight UX/UI, menu layout, and JavaScript interactivity.  
+**Tech:** HTML, CSS, JavaScript  
+📷 `project2.svg`
 
-## Accessibility & UX Considerations
-- High contrast text and background combinations.
-- Fully navigable via keyboard.
-- Semantic elements for screen reader compatibility.
-- Responsive breakpoints for major device sizes.
+### 3. Online Quiz Application  
+A fully interactive quiz game with multiple categories, score tracking, and dynamic updates.  
+**Tech:** HTML, CSS, JavaScript  
+📷 `project3.svg`
 
-### Deployment
-This website can be deployed on GitHub Pages or any static hosting provider. To deploy on GitHub Pages:
+---
 
-Push your code to GitHub.
+## ✨ Features
 
-Go to Settings > Pages in your repository.
+- 📱 **Responsive layout** for mobile, tablet, and desktop
+- ♿ **Accessibility support**: keyboard navigation & semantic HTML
+- ⚙️ **Sidebar toggle** with ARIA attributes
+- 🎨 **UI polish**: buttons, transitions, hover effects
+- 📷 **Visuals**: Custom SVG images and project thumbnails
+- 🌈 **Clean styling** using Flexbox and media queries
 
-Select the main branch and save changes.
+---
 
-## Contact
+## 🧠 Accessibility & UX Highlights
+
+- High color contrast for readability
+- Semantic tags for screen reader support
+- Keyboard-accessible navigation
+- Smooth scrolling and intuitive layout
+
+---
+
+## 🧪 Lighthouse Scores
+
+### 📱 Mobile
+![Mobile Lighthouse](/assets/images/lighthouse_mobile_sc.png)
+
+### 💻 Desktop
+![Desktop Lighthouse](/assets/images/lighthouse_desktop_sc.png)
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AlfieCross/my-portfolio.git
+cd my-portfolio
+```
+
+### 2. Open in browser
+
+Open `index.html` locally or use a Live Server extension in VS Code.
+
+---
+
+## 📤 Deployment
+
+1. Push the site to a GitHub repo
+2. Navigate to **Settings > Pages**
+3. Set source to the `main` branch and save
+4. Your live site will be available at:
+   `https://yourusername.github.io/your-repo-name`
+
+---
+
+## 📬 Contact
+
 **Alfie Cross**  
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
-Email: your-email@example.com
+📧 Email: alfiecross@myportfolio.com  
+🔗 GitHub: [AlfieCross](https://github.com/AlfieCross)  
+🔗 LinkedIn: [linkedin.com/in/alfie-cross](https://linkedin.com/in/alfie-cross)
 
-## Acknowledgements
-* [Font Awesome](https://fontawesome.com/) - icons.
-* [unDraw](https://undraw.co/) - project images.
-* [Google Fonts](https://fonts.google.com/) - fonts.
+---
 
-### Accessibility 
-See below for the Lighthouse report:
-#### Mobile
-![LighthouseReportMobile](/assets/images/lighthouse_mobile_sc.png)
+## 🙏 Acknowledgements
 
-#### Desktop
-![LighthouseReportDesktop](/assets/images/lighthouse_desktop_sc.png)
+- [Font Awesome](https://fontawesome.com/) — Icons  
+- [unDraw](https://undraw.co/) — Free illustrations  
+- [Google Fonts](https://fonts.google.com/) — Fonts
+
+---
+
+## 🧩 Future Improvements
+
+- Add dark/light mode toggle  
+- Integrate contact form with backend or email service  
+- Improve accessibility testing with screen readers  
+- Add project filter or modal view system  
